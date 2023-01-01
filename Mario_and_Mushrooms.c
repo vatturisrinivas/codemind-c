@@ -7,7 +7,7 @@ int main()
     {
         printf("NORMAL");
     }
-    else if(a%(3+1)==0)
+    else if(a%(3+1)==0) 
     {
         printf("HUGE");
     }
