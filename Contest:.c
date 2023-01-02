@@ -7,8 +7,8 @@ int main()
     {
         printf("Qualify");
     }
-    else
+    else 
     {
-        printf("Not Qualify");
+        printf("Not Qualify"); 
     }
 }
