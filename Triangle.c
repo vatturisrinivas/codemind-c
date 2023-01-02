@@ -9,18 +9,18 @@ int main()
     }
     else if(a==b&&b!=c)
     {
-        printf("Isosceles triangle");
-    }
+        printf("Isosceles triangle"); 
+    } 
     else if(a!=b&&b==c)
+    { 
+        printf("Isosceles triangle");
+    }
+    else if(c==a&&a!=b) 
     {
         printf("Isosceles triangle");
     }
-    else if(c==a&&a!=b)
+    else 
     {
-        printf("Isosceles triangle");
-    }
-    else
-    {
-        printf("Scalene triangle");
+        printf("Scalene triangle"); 
     }
 }
