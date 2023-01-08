@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    int a; 
     scanf("%d",&a);
     if(a%5==0||a%10==0)
     {
@@ -9,7 +9,7 @@ int main()
         {
             printf("%d",a/10);
         }
-        else
+        else 
         {
             printf("%d",(a/10)+1);
         }
@@ -18,4 +18,5 @@ int main()
     {
         printf("%d",-1);
     }
+    
 }
