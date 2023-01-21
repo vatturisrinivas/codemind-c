@@ -8,4 +8,5 @@ int main()
         printf("%d x %d = %d
 ",a,i,a*i);
     }
+    
 }
