@@ -5,9 +5,10 @@ int main()
     scanf("%d",&a);
     while(a)
     {
-        r=a%10;
+        r=a%10; 
         s=s*10+r;
-        a/=10;
-    }
+        a=a/10;
+    } 
     printf("%d",s);
+    
 }
