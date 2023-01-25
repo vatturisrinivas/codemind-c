@@ -1,23 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int a,i=0,r;
-    int w[a];
+    int a,m=0,r;
     scanf("%d",&a);
     while(a)
     {
         r=a%10;
-        w[i]=r;
-        i++;
-        a/=10;
-    }
-    int m=0,j;
-    for(j=0;j<i;j++)
-    {
-        if(w[j]>m)
+        if(m<r)
         {
-            m=w[j];
+            m=r;
         }
+        a/=10; 
     }
     printf("%d",m);
+    
 }
