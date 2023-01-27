@@ -2,23 +2,23 @@
 int rev(int x)
 {
     int r,s=0;
-    while(x)
+    while(x) 
     {
-        r=x%10;
-        s=s*10+r;
+        r=x%10; 
+        s=s*10+r; 
         x/=10;
     }
     return s;
 }
 int main()
-{
-    int a,s1,s2,r,r1;
+{ 
+    int a,sqa,sqb,c;
     scanf("%d",&a);
-    s1=a*a;
-    r=rev(a);
-    s2=r*r;
-    r1=rev(s2);
-    if(r1==s1)
+    sqa=a*a;
+    int b=rev(a);
+    sqb=b*b; 
+    c=rev(sqb); 
+    if(c==sqa)
     {
         printf("True");
     }
