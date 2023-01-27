@@ -6,12 +6,12 @@ int main()
     while(a)
     {
         r=a%10;
-        if(m<r)
+        if(m<r) 
         {
             m=r;
         }
-        a/=10; 
-    }
-    printf("%d",m);
+    a/=10;
+}
+printf("%d",m);
     
 }
