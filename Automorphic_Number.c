@@ -1,22 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    int a,f,i=1; 
+    int a,f,i=1;
     scanf("%d",&a);
     int t=a;
-    while(t) 
+    while(t)
     {
         i*=10;
-        t/=10;
-    }
+        t/=10; 
+        
+    } 
     f=a*a; 
     if(f%i==a)
     {
         printf("Automorphic Number");
     }
-    else
+    else 
     {
-        printf("Not an Automorphic Number"); 
+        printf("Not an Automorphic Number");
     }
     
 }
