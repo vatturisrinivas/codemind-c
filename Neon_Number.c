@@ -1,20 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int a,s,su=0,r;
+    int a,r,s=0;
     scanf("%d",&a);
-    s=a*a;
-    while(s) 
+    int p=a*a;
+    while(p) 
     {
-        r=s%10; 
-        su+=r; 
-        s/=10;
+        r=p%10;
+        s+=r;
+        p/=10;
     }
-    if(su==a) 
+    if(a==s) 
     {
         printf("Neon Number");
     }
-    else
+    else 
     {
         printf("Not Neon Number");
     }
