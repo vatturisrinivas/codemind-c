@@ -2,20 +2,23 @@
 int main()
 {
     int a,s=0,p=1,r;
-    scanf("%d",&a);
-    while(a)
+    scanf("%d",&a); 
+    while(a) 
     {
         r=a%10;
         s+=r;
-        p*=r;
-        a/=10;
-    }
-    if(s==p)
+        p*=r; 
+        a/=10; 
+        
+    } 
+    if(p==s)
     {
-        printf("Spy Number");
-    }
+        printf("Spy Number"); 
+        
+    } 
     else
     {
         printf("Not Spy Number");
     }
+    
 }
