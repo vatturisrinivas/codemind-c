@@ -1,26 +1,25 @@
 #include<stdio.h>
-int add(int x)
+int
+add(int x)
 {
-    int r,s=0; 
-    while(x)
+    int r, s=0; 
+    while(x) 
     {
         r=x%10;
         s=s+r;
-        x/=10;
+        x=x/10;
     }
-    x=s;
-    return x;
+    return s;
     
 }
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    while(a/10!=0)
+    int a; 
+    scanf("%d",&a); 
+    while(a>9)
     {
-        a=add(a); 
-        
-    } 
+        a=add(a);
+    }
     printf("%d",a);
     
 }
